@@ -116,4 +116,4 @@ autocmd FileType python setlocal tabstop=2 shiftwidth=2
 nnoremap <A-o> <C-o>
 nnoremap <A-i> <C-i>
 
-colorscheme darkblue
+colorscheme elflord
