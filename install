@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+rm "$HOME/.vimrc" 2>/dev/null
+ln -sf "$(pwd)/dot_vimrc" "$HOME/.vimrc"
