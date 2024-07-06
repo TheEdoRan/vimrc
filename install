@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 
 mv "$HOME/.vimrc" "$HOME/.vimrc.orig" 2>/dev/null
-ln -sf "$(pwd)/dot_vimrc" "$HOME/.vimrc"
+sudo mv "/root/.vimrc" "/root/.vimrc.orig" 2>/dev/null
+cp "$(pwd)/dot_vimrc" "$HOME/.vimrc"
+sudo cp "$(pwd)/dot_vimrc" "/root/.vimrc"
